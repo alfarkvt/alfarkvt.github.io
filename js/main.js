@@ -23,10 +23,15 @@
     }
   })
 
-  // copyright year
   $(document).ready(function () {
+    // copyright year
     var currentYear = new Date().getFullYear()
     $('#copyright-year').text(currentYear)
+
+    // year of experience
+    var startYear = 2010
+    var yearsOfExperience = currentYear - startYear
+    $('#trainingExperience').text(yearsOfExperience)
   })
 
   // Facts counter
