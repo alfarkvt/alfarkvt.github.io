@@ -29,7 +29,7 @@
     $('#copyright-year').text(currentYear)
 
     // year of experience
-    var startYear = 2010
+    var startYear = 2012
     var yearsOfExperience = currentYear - startYear
     $('#trainingExperience').text(yearsOfExperience)
   })

@@ -229,9 +229,9 @@
     height: 100%;
     margin-top: 50px;
 }
-
-
-
+.contact-email {
+    word-break: break-all;
+}
 .carousel-caption {
     top: 0;
     left: 0;
