@@ -144,6 +144,17 @@
         margin-top: 15px;
         border-top: 1px solid #EEEEEE;
     }
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    }
+    .logo-mobile {
+        width: 40px;
+        height: 40px;
+    }
+    .logo-mobile-text {
+        padding-left: 20px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -181,6 +192,45 @@
         margin-top: -34px;
     }
 }
+
+/* Mobile style only */
+@media only screen and (max-width: 767px) {
+    .carousel-caption {
+        display: contents !important;
+    }
+}
+
+/* Portrait Mobile style only */
+@media only screen and (max-width: 500px) {
+    .logo-mobile-text {
+        font-size: large;
+        padding-left: 10px;
+    }
+}
+
+
+.header-carousel {
+    height: 550px; /* Set your desired fixed height for the carousel container */
+    overflow: hidden; /* Ensure that content within the carousel doesn't overflow */
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    height: 100%;
+    margin-top: 50px;
+}
+
+
 
 .carousel-caption {
     top: 0;
